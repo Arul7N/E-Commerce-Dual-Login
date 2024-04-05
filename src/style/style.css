@@ -1,0 +1,34 @@
+.custom-main {
+    @apply flex flex-col justify-center items-center h-screen bg-red-200;
+}
+
+.white-card {
+    @apply p-6 shadow-lg shadow-purple-900 rounded-md bg-zinc-200;
+}
+
+.green-btn {
+    @apply block text-base mb-2 bg-black rounded-lg border-2 text-white px-4 py-2 hover:bg-white hover:text-red-700 hover:border-red-700 hover:shadow-xl w-40 h-10 hover:shadow-red-700/30 duration-300;
+}
+
+.pl-input {
+    @apply w-full outline-red-500 focus:outline-red-700 rounded-full p-2 ml-0 my-0 mb-4;
+}
+
+.label {
+    @apply block text-base  px-2 text-gray-700 font-sans items-start font-semibold mb-2 ;
+}
+
+.main-label {
+    @apply flex justify-center text-2xl text-red-700 font-sans font-semibold;
+}
+
+.home-btns{
+    @apply block text-base mb-2 bg-black rounded-lg border-2 text-white px-4 py-2 hover:scale-110 hover:bg-white hover:text-red-700  hover:border-red-700 hover:shadow-xl w-full custom-height hover:shadow-red-700/20  duration-300;
+}
+
+.view-btn {
+    @apply block text-base mb-2 bg-black rounded-lg border-2 text-white px-4 py-2 hover:scale-110 hover:bg-white hover:text-red-700 hover:border-red-700 hover:shadow-xl w-full h-full hover:shadow-red-700/30  duration-300;
+}
+.hor-scroll {
+    @apply overflow-x-scroll no-scrollbar scroll-m-0 whitespace-nowrap scroll-smooth;
+}
